@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="ajax.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>search county</title>
+
+</head>
+
+<body>
+    <h1>Search County</h1>
+    <hr>
+    <div class="form-class">
+        <label> please enter country name :</label>
+        <input id="name" type="text">
+        <button type="button" class="btn btn-primary" id="name-button"> Serach</button>
+        <button type="button" class="btn btn-primary" id="all-button"> All</button>
+    </div>
+    <br>
+    <div class="table-class">
+        <table  class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Top level domain</th>
+                    <th>Capital</th>
+                    <th>Currencies</th>
+                    <th>Border</th>
+                    <th>Flag</th>
+
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
